@@ -1,6 +1,6 @@
 <template>
   <div class="explanation">
-    <h2>サイト概要</h2>
+    <h1>About this site</h1>
     <p>
       ここはエンジニア川田京助のポートフォリオサイトです。
     </p>
@@ -22,11 +22,18 @@
 .explanation {
   min-height: 800px;
   margin: 0;
+  background-color:#EEEEEE;
 }
 
-.explanation > h2 {
+.explanation > h1 {
   margin: 0;
-
   line-height: 300px;
+  color: black;
+  font-size:52px;
+  font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+}
+
+.explanation p {
+  color: black;
 }
 </style>

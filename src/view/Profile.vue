@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <h2>自己紹介</h2>
+    <h1>Introduction</h1>
     <p>
       1992年宮城県生まれ。専修大学法学部法律学科卒
     </p>
@@ -16,9 +16,6 @@
     <p>
       LaravelとVue.jsに興味あり
     </p>
-    <p>
-      githubアカウント <a href="https://github.com/kkyopa" target="_blank ">https://github.com/kkyopa</a>
-    </p>
   </div>
 </template>
 
@@ -26,14 +23,22 @@
 
 <style>
 .profile {
-  min-height: 800px;
+  min-height: 600px;
   margin: 0;
-  background-color:#EEEEEE;
+  background-color:white;
+
 }
 
-.profile > h2 {
+.profile > h1 {
   margin: 0;
-
-  line-height: 300px;
+  line-height: 200px;
+  font-size:52px;
+  font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
 }
+
+
+.profile p {
+  color: black;
+}
+
 </style>

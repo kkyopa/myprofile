@@ -1,6 +1,25 @@
 <template>
   <div class="contact">
-    <h2>お問い合わせ</h2>
+    <h1>Contact</h1>
+    <p>
+      最後までご覧いただきありがとうございました。
+    </p>
+    <p>
+      もしこのサイトや私について何かコメントがありましたら
+    </p>
+    <p>
+      下記フォームをご利用ください。
+    </p>
+    <p>
+      どんな些細なことでも、お気軽にお問い合わせください。
+    </p>
+
+    <form>
+      <input name="name" type="text" class="feedback-input" placeholder="Name" />
+      <input name="email" type="text" class="feedback-input" placeholder="Email" />
+      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input type="submit" value="送信"/>
+    </form>
   </div>
 </template>
 
@@ -10,12 +29,63 @@
 .contact {
   min-height: 800px;
   margin: 0;
-
 }
 
-.contact > h2 {
+.contact > h1 {
   margin: 0;
-
-  line-height: 300px;
+  line-height: 200px;
+  color:white;
 }
+
+.contact p {
+  color:white;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
 </style>
