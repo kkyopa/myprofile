@@ -2,40 +2,40 @@
   <div class="work">
     <h1>Portfolio</h1>
     <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>エンジニア紹介</h3>
         <p>企業が抱える優秀なエンジニア不足と</p>
         <p>個人で稼ぐ時代にたしかなスキルを習得したいエンジニアを繋ぎます。</p>
     </div>
     <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>Web制作</h3>
         <p>Web制作の開発の依頼もお客様のご要望に準じて</p>
         <p>最適な料金プランをご提案いたします。</p>
         <p>企画のご提案、制作、リリースまで、サポート</p>
     </div>
         <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>エンジニア紹介</h3>
         <p>企業が抱える優秀なエンジニア不足と</p>
         <p>個人で稼ぐ時代にたしかなスキルを習得したいエンジニアを繋ぎます。</p>
     </div>
 
     <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>エンジニア紹介</h3>
         <p>企業が抱える優秀なエンジニア不足と</p>
         <p>個人で稼ぐ時代にたしかなスキルを習得したいエンジニアを繋ぎます。</p>
     </div>
     <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>Web制作</h3>
         <p>Web制作の開発の依頼もお客様のご要望に準じて</p>
         <p>最適な料金プランをご提案いたします。</p>
         <p>企画のご提案、制作、リリースまで、サポート</p>
     </div>
         <div class="portfolio">
-        <div class="sample_box"><img src="../img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
+        <div class="sample_box"><img src="../assets/img/noimage.png" alt="" width="240" height="160" style="border-radius:20px;"></div>
         <h3>エンジニア紹介</h3>
         <p>企業が抱える優秀なエンジニア不足と</p>
         <p>個人で稼ぐ時代にたしかなスキルを習得したいエンジニアを繋ぎます。</p>

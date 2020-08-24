@@ -19,24 +19,24 @@
 
           <div class="container">
       <div class="icon">
-        <img src="../img/suit.png" width="120" height="120" alt="太郎のアイコンです">
+        <img src="../assets/img/suit.png" width="120" height="120" alt="太郎のアイコンです">
       </div>
       <div class="info">
         <h3>Kyousuke Kawada</h3>
         <ul>
           <li>
             <a href="https://github.com/kkyopa" target="_blank">
-              <img src="../img/github.png" width="20" height="20" alt="github">
+              <img src="../assets/img/github.png" width="20" height="20" alt="github">
             </a>
           </li>
           <li>
             <a href="https://www.facebook.com/ka.wa.da.kyosuke" target="_blank">
-              <img src="../img/facebook.png" width="20" height="20" alt="facebook">
+              <img src="../assets/img/facebook.png" width="20" height="20" alt="facebook">
             </a>
           </li>
           <li>
             <a href="https://twitter.com/kazumons" target="_blank">
-              <img src="../img/twitter.png" width="20" height="20" alt="facebook">
+              <img src="../assets/img/twitter.png" width="20" height="20" alt="facebook">
             </a>
           </li>
         </ul>

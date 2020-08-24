@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Particles/>
     <PageTop/>
     <Explanation/>
     <Profile/>
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+import Particles from './view/Particles.vue'
 import PageTop from './view/PageTop.vue'
 import Explanation from './view/Explanation.vue'
 import Profile from './view/Profile.vue'
@@ -20,6 +22,7 @@ import Contact from './view/Contact.vue'
 export default {
   name: 'App',
   components: {
+    Particles,
     PageTop,
     Explanation,
     Profile,

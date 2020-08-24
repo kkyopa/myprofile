@@ -1,7 +1,7 @@
 <template>
 <header>
       <div class="previe">
-        <img src="../img/previe.png" width="150" height="190">
+        <img src="../assets/img/previe.png" width="150" height="190">
       </div>
     </header>
 </template>
@@ -12,7 +12,7 @@
 
 header {
 background-color:#EEEEEE;
-  background-image: url("../img/sibuya3.jpg");
+  background-image: url("../assets/img/bgimage.jpg");
   font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   background-size: cover;
   background-position: center center;
@@ -30,10 +30,7 @@ background-color:#EEEEEE;
 }
 
 .previe {
-  margin-top:-238px;
-  margin-left:905px;
-  width: 50px;
-  height: 300px;
+
 }
 
 
