@@ -17,7 +17,7 @@
       LaravelとVue.jsに興味あり
     </p><br>
 
-          <div class="container">
+    <div class="container">
       <div class="icon">
         <img src="../assets/img/suit.png" width="120" height="120" alt="太郎のアイコンです">
       </div>
@@ -51,7 +51,7 @@
 
 <style>
 .profile {
-  min-height: 600px;
+  min-height: 830px;
   margin: 0;
   background-color:white;
 
@@ -59,7 +59,7 @@
 
 .profile > h1 {
   margin: 0;
-  line-height: 200px;
+  line-height: 250px;
   font-size:52px;
   font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
 }

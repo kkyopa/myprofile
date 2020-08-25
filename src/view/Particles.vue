@@ -43,7 +43,6 @@ html, body, #particles {
     font-size: 120px;
     text-align: center;
     color: #fff;
-    font-family: 'ico';
     position: relative;
     z-index: 10;
     width: 100%;
