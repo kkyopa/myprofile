@@ -18,9 +18,13 @@
         clickMode="bubble"
       >
       </vue-particles>
+
       <h1 class="icon-MD_thin_semi">
         <span class="centering_item">KYOSUKE KAWADA</span>
       </h1>
+      <span class="material-icons scroll_top">
+        expand_more
+      </span>
     </div>
  </template>
 
@@ -36,23 +40,26 @@ html, body, #particles {
   position: relative;
   background-size: cover;
   margin:0 auto;
-   display:inline-block;
 }
 
 #particles h1 {
     font-size: 120px;
     text-align: center;
     color: #fff;
-    position: relative;
+    position: absolute;
     z-index: 10;
     width: 100%;
     font-weight: lighter;
-    margin-top:-400px;
-    margin-bottom:350px;
+    top:0;
 }
 
 .centering_item {
 
+ }
+
+ .material-icons.scroll_top {
+  color :white;
+  font-size:100px;
  }
 
 

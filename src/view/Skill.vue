@@ -5,7 +5,7 @@
     </p>
     <p>「4: 実務レベルで開発可能」、「5: 実務レベルで開発可能+技術を教えられる」という感じです。
     </p>
-
+    <div class="skill_table">
       <table>
       <caption>プログラミング言語</caption>
         <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
@@ -41,6 +41,7 @@
         <tr><th>Github</th><td></td><td></td><td></td><td>○</td><td></td></tr>
         <tr><th>Backlog</th><td></td><td></td><td></td><td>○</td><td></td></tr>
       </table>
+      </div>
     </div>
 </template>
 
@@ -51,7 +52,6 @@
   min-height: 800px;
   margin: 0;
   background-color: white;
-  padding-bottom:420px;
 }
 
 .skill > h1 {
@@ -75,8 +75,8 @@ padding-top:20px;
 table{
   border:1px solid #666;
   border-spacing: 0;
-  float: left;
   width:600px;
+  float:left;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom:30px;
@@ -96,6 +96,10 @@ table tbody tr:last-child td{
 }
 th + th,td{
   border-left:1px solid #666;
+}
+
+.skill_table {
+  overflow: hidden;
 }
 
 </style>

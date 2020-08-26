@@ -2,7 +2,7 @@
   <div class="work">
     <h1>Portfolio</h1>
     <h3>過去の制作事例の一部を紹介します。</h3>
-      <div class="portfolio" v-for='(item, items) in items' :key='items'>
+      <div class="portfolio" v-for='(item, index) in items' :key="index">
         <div class="sample_box">
           <img  @click="openModal(item)" :src="item.img_src" alt="Card image" width="300" height="200">
         </div>
@@ -23,23 +23,26 @@
         postItem: "",
         items: [
           { id: 1,
-            desc: '課題で作成した美容室のHPです。',
-            range: 'コーディング（レスポンシブ対応）',
-            lang: 'HTML, CSS(Sass)',
+            desc: 'プログラミングスクールに通い初めてのWeb制作をRubyonRailsで作成しました。アプリ名は一日一善一運です。運を可視化するアプリで、いいことをつぶやくと運ポイントが加算されます。オリジナルアプリを通してCRUD、画像アップロード、フォロー機能、herokuデプロイなどを学びました。今後は実務レベルでこれらの技術を活用することを考えています。',
+            range: '要件定義、実装、運用（レスポンシブ対応）',
+            lang: 'HTML,CSS,JavaScript,RubyOnRails,PostgreSQL,Heroku',
+            url:'https://radiant-refuge-40609.herokuapp.com',
             img_src: require('../assets/img/itiun.png'),
           },
           {
             id: 2,
-            desc: '実案件で作成したコーポレートサイトです。',
-            range: 'コーディング（レスポンシブ対応）',
-            lang: 'HTML, CSS(Sass)',
+            desc: '趣味であるダーツのWebアプリをLaravelで作成！！ダーツの01ゲームの攻略サイトで、戦略をメモとしてウェブ上に保存、閲覧できるアプリです。ウェブ上に保存したものからユーザーがもっとも多く回答したものを抽出しランキング化した表も記載しております。',
+            range: '要件定義、実装、運用（レスポンシブ対応）',
+            lang: 'HTML,CSS,Laravel,MySQL,さくらサーバー',
+            url:'https://darts-arrange.com',
             img_src: require('../assets/img/arrange.png'),
           },
                     {
             id: 3,
-            desc: '実案件で作成したコーポレートサイトです。',
-            range: 'コーディング（レスポンシブ対応）',
-            lang: 'HTML, CSS(Sass)',
+            desc: '当サイトになります。',
+            range: '要件定義、実装、運用（レスポンシブ対応）',
+            lang: 'HTML,CSS,Vue.js',
+            url:'未定',
             img_src: require('../assets/img/po.png'),
           },
         ]
