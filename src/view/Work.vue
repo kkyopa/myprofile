@@ -33,13 +33,13 @@
             id: 2,
             desc: '趣味であるダーツのWebアプリをLaravelで作成！！ダーツの01ゲームの攻略サイトで、戦略をメモとしてウェブ上に保存、閲覧できるアプリです。ウェブ上に保存したものからユーザーがもっとも多く回答したものを抽出しランキング化した表も記載しております。',
             range: '要件定義、実装、運用（レスポンシブ対応）',
-            lang: 'HTML,CSS,Laravel,MySQL,さくらサーバー',
+            lang: 'HTML,CSS,Laravel,MySQL,さくらサーバー, GoogleAnalytics',
             url:'https://darts-arrange.com',
             img_src: require('../assets/img/arrange.png'),
           },
                     {
             id: 3,
-            desc: '当サイトになります。',
+            desc: '当サイトになります。Vue.jsを使用しましたが、環境構築が簡単ですぐに開発に取り掛かることができました。コンポーネントを作る際に1ファイルのみで見やすく楽しくコードを書くことが出来ました。',
             range: '要件定義、実装、運用（レスポンシブ対応）',
             lang: 'HTML,CSS,Vue.js',
             url:'未定',
@@ -89,13 +89,13 @@
 .sample_box{
  width:470px;
  margin:0 auto;
-
 }
 .sample_box img{
  transition:1s all;
 }
 
 .sample_box img:hover{
+  cursor: pointer;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   transform: translateY(-10px);
   transition-duration: 0.5s;

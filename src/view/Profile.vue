@@ -2,41 +2,47 @@
   <div class="profile">
     <h1>Introduction</h1>
     <p>
-      1992年宮城県生まれ。専修大学法学部法律学科卒
+      1992年2月宮城県生まれ。水瓶座のO型 専修大学法学部法律学科卒業🎓
     </p>
     <p>
-      住宅営業と消防士を経験後27歳でWebエンジニアに転職
+    高校の部活動ではカヌー競技に奮闘 新潟国体9位! (宮城県スポーツ功績賞受賞)
     </p>
     <p>
-      LAMP環境によるアプリケーション開発や教育系のHP制作などの案件に参画
+      新卒で住宅営業と消防士を経験後27歳でWebエンジニアに転職 💻 LAMP環境による自社開発や教育系のHP制作などの案件に参画
     </p>
     <p>
-      趣味はダーツと散歩で、2019年にダーツのプロライセンス取得
+      趣味はダーツと散歩と古着（2019年にダーツのプロライセンス取得）好きな食べ物はラーメン全般と癖の強い食べ物です🤤
     </p>
     <p>
-      LaravelとVue.jsに興味あり
+      プログラミングは始めたきっかけは、友人がプログラミングを仕事にしていて、面白そうと思ったからです。
+    </p>
+    <p>
+      世の中にまだないサービスやアイディアを考えるのが好きで、形にしたいと思い現在技術を学んでいます。
+    </p>
+    <p>
+      最近はLaravelとVue.jsに興味があります!
     </p><br>
 
     <div class="container">
       <div class="icon">
-        <img src="../assets/img/suit.png" width="120" height="120" alt="太郎のアイコンです">
+        <img src="../assets/img/suit.png" width="120" height="120" alt="川田のアイコン">
       </div>
       <div class="info">
         <h3>Kyousuke Kawada</h3>
         <ul>
-          <li>
+          <li class="github_icon">
             <a href="https://github.com/kkyopa" target="_blank">
-              <img src="../assets/img/github.png" width="20" height="20" alt="github">
+              <img src="../assets/img/github.png" alt="github">
             </a>
           </li>
-          <li>
+          <li class="facebook_icon">
             <a href="https://www.facebook.com/ka.wa.da.kyosuke" target="_blank">
-              <img src="../assets/img/facebook.png" width="20" height="20" alt="facebook">
+              <img src="../assets/img/facebook.png" alt="facebook">
             </a>
           </li>
-          <li>
+          <li class="twitter_icon">
             <a href="https://twitter.com/kazumons" target="_blank">
-              <img src="../assets/img/twitter.png" width="20" height="20" alt="facebook">
+              <img src="../assets/img/twitter.png" alt="facebook">
             </a>
           </li>
         </ul>
@@ -109,6 +115,32 @@
 
 .info ul li {
   margin-right: 26px;
+}
+
+.info img {
+  width: 40px;
+  height: auto;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+ }
+
+ .github_icon :hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+  width: 50px;
+}
+
+ .facebook_icon :hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+  width: 50px;
+}
+
+ .twitter_icon :hover img{
+  opacity: 0.6;
+  transition-duration: 0.3s;
+  width: 50px;
 }
 
 </style>

@@ -29,7 +29,7 @@
         <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
         <tr><th>Laravel</th><td></td><td>○</td><td></td><td></td><td></td></tr>
         <tr><th>Vue.js</th><td>○</td><td></td><td></td><td></td><td></td></tr>
-        <tr><th>RubyonRails</th><td></td><td>○</td><td></td><td></td><td></td></tr>
+        <tr><th>RubyonRails</th><td>○</td><td></td><td></td><td></td><td></td></tr>
         <tr><th>jQuery</th><td></td><td></td><td>○</td><td></td><td></td></tr>
       </table>
 

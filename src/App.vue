@@ -3,7 +3,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <Particles/>
     <PageTop/>
-    <Explanation/>
     <Profile/>
     <Work/>
     <Skill/>
@@ -14,7 +13,6 @@
 <script>
 import Particles from './view/Particles.vue'
 import PageTop from './view/PageTop.vue'
-import Explanation from './view/Explanation.vue'
 import Profile from './view/Profile.vue'
 import Work from './view/Work.vue'
 import Skill from './view/Skill.vue'
@@ -25,7 +23,6 @@ export default {
   components: {
     Particles,
     PageTop,
-    Explanation,
     Profile,
     Work,
     Skill,
@@ -53,15 +50,15 @@ export default {
   height: 1em;
   line-height: 1;
   text-transform: none;
- 
+
   /* WebKitブラウザサポート */
   -webkit-font-smoothing: antialiased;
   /* Chrome、Safariサポート */
   text-rendering: optimizeLegibility;
- 
+
   /* Firefoxサポート */
   -moz-osx-font-smoothing: grayscale;
- 
+
   /* IEサポート */
   font-feature-settings: 'liga';
 }

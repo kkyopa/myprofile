@@ -20,7 +20,8 @@
       </vue-particles>
 
       <h1 class="icon-MD_thin_semi">
-        <span class="centering_item">KYOSUKE KAWADA</span>
+        <span class="centering_item">KYOSUKE KAWADA</span><br><br>
+      <TextAnime3 :autoplay="autoplay"/>
       </h1>
       <span class="material-icons scroll_top">
         expand_more
@@ -28,7 +29,19 @@
     </div>
  </template>
 
-<script></script>
+<script>
+  import TextAnime3 from './TextAnime3'
+  export default {
+    components: {
+      TextAnime3
+    },
+    data() {
+      return {
+        autoplay: true,
+      }
+    }
+  }
+</script>
 
 <style>
 
