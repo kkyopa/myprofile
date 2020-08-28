@@ -13,11 +13,12 @@
     <p>
       どんな些細なことでも、お気軽にお問い合わせください。
     </p>
-
+    <div class="form">
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
       <input name="email" type="text" class="feedback-input" placeholder="Email" />
       <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
       <input type="button" value="送信" @click="submit"/>
+    </div>
   </div>
 </template>
 
@@ -62,7 +63,7 @@ export default {
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin:50px auto; }
+.form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
   color:white;
@@ -89,7 +90,7 @@ textarea {
   resize:vertical;
 }
 
-[type="submit"] {
+[type="button"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
   background:#CC6666;
