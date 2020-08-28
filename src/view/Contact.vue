@@ -14,16 +14,34 @@
       どんな些細なことでも、お気軽にお問い合わせください。
     </p>
 
-    <form>
       <input name="name" type="text" class="feedback-input" placeholder="Name" />
       <input name="email" type="text" class="feedback-input" placeholder="Email" />
       <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-      <input type="submit" value="送信"/>
-    </form>
+      <input type="button" value="送信" @click="submit"/>
   </div>
 </template>
 
-<script></script>
+<script>
+
+export default {
+  namecontact: 'App',
+  data: function() {
+    return {
+      params:{
+        name:"" ,
+        email:"",
+        text:""
+      }
+    };
+  },
+  methods:{
+    submit(){
+      window.console.log(this.params)
+    }
+   }
+}
+
+</script>
 
 <style>
 .contact {

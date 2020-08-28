@@ -23,13 +23,15 @@
         <span class="centering_item">KYOSUKE KAWADA</span><br><br>
       <TextAnime3 :autoplay="autoplay"/>
       </h1>
-      <span class="material-icons scroll_top">
+      <a href="#section1" v-smooth-scroll="{ duration: 3000, offset: 0 }"><span class="material-icons scroll_top">
         expand_more
       </span>
+      </a>
     </div>
  </template>
 
 <script>
+
   import TextAnime3 from './TextAnime3'
   export default {
     components: {

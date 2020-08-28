@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">
+  <div id="section1" class="profile">
     <h1>Introduction</h1>
     <p>
       1992年2月宮城県生まれ。水瓶座のO型 専修大学法学部法律学科卒業🎓
