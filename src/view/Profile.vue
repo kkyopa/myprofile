@@ -28,7 +28,7 @@
 
     <div class="container">
       <div class="icon">
-        <img src="../assets/img/suit.png" width="120" height="120" alt="川田のアイコン">
+        <img src="../assets/img/suit.png" alt="川田のアイコン">
       </div>
       <div class="info">
         <h3>Kyousuke Kawada</h3>
@@ -92,6 +92,8 @@
   border-width: 4px;
   border-style: solid;
   border-color:#228B22;
+  width :120px;
+  height:120px;
 }
 
 .info {
@@ -144,6 +146,38 @@
   opacity: 0.6;
   transition-duration: 0.3s;
   width: 50px;
+}
+
+@media screen and (max-width:767px) {
+
+
+.icon img {
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color:#228B22;
+  width :80px;
+  height:80px;
+}
+
+.info ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 10px;
+}
+
+.info ul li {
+  margin-right: 16px;
+}
+
+.info img {
+  width: 25px;
+  height: auto;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+ }
+
 }
 
 </style>
