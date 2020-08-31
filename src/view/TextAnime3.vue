@@ -91,4 +91,11 @@ export default {
   opacity: 0;
   transform: translateY(-30px);
 }
+
+@media screen and (max-width:767px) {
+  .title {
+      font-size: 1rem;
+  }
+}
+
 </style>

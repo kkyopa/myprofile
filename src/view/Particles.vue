@@ -57,25 +57,54 @@ html, body, #particles {
   margin:0 auto;
 }
 
-#particles h1 {
-    font-size: 120px;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    font-weight: lighter;
-    top:0;
-}
-
-.centering_item {
-
- }
-
  .material-icons.scroll_top {
   color :white;
   font-size:100px;
  }
 
+@media screen and (min-width:951px){
+    #particles h1 {
+        font-size: 100px;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        font-weight: lighter;
+        top:0;
+    }
+}
+
+@media screen and (max-width:950px){
+    #particles h1 {
+        font-size: 5rem;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        font-weight: lighter;
+        top:0;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    #particles h1 {
+        font-size: 2.6rem;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        font-weight: lighter;
+        top:0;
+    }
+
+    .material-icons.scroll_top {
+      color :white;
+      font-size:50px;
+    }
+}
 
 </style>
