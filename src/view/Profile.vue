@@ -83,6 +83,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -91,7 +92,6 @@
   border-width: 4px;
   border-style: solid;
   border-color:#228B22;
-  margin-left:560px;
 }
 
 .info {
