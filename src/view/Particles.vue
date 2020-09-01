@@ -48,7 +48,7 @@
 <style>
 
 html, body, #particles {
-    height: 100%;
+    height: 100vh;
 }
 
 #particles {

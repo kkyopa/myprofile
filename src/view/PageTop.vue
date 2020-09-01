@@ -1,17 +1,15 @@
 <template>
-<header>
       <div class="previe">
-        <img src="../assets/img/previe.png" width="150" height="190">
+        <img src="../assets/img/previe.png">
       </div>
-    </header>
 </template>
 
 <script></script>
 
 <style>
 
-header {
-background-color:#EEEEEE;
+.previe {
+  background-color:#EEEEEE;
   background-image: url("../assets/img/bgimage.jpg");
   font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
   background-size: cover;
@@ -21,16 +19,30 @@ background-color:#EEEEEE;
   padding-bottom: 330px;
   background-size:75%;
   background-repeat : no-repeat;
+
 }
 
-.darts {
-  margin-top:-200px;
-  width: 100px;
-  height: 380px;
+.previe img {
+  width:150px;
+  heigth:190px;
 }
 
-.previe {
+@media screen and (max-width:767px) {
+    .previe {
+      background-image: url("../assets/img/bgimage.jpg");
+      font-family: "Brandon Grotesque W01", "Century Gothic", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size:90%;
+      background-repeat : no-repeat;
 
+    }
+
+    .previe img {
+      width:90px;
+      heigth:114px;
+    }
 }
 
 

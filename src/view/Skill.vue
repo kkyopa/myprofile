@@ -102,4 +102,43 @@ th + th,td{
   overflow: hidden;
 }
 
+@media screen and (max-width:767px) {
+    caption {
+    font-size: 22px;
+    padding-top:20px;
+    }
+
+    table{
+      border:1px solid #666;
+      border-spacing: 0;
+      width:340px;
+      float:left;
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom:30px;
+    }
+    td,th{
+      border-bottom:1px solid #666;
+    }
+    td,th{
+      padding:10px;
+    }
+    th{
+      background:#EFEFEF;
+    }
+    table tbody tr:last-child th,
+    table tbody tr:last-child td{
+      border-bottom: none;
+    }
+    th + th,td{
+      border-left:1px solid #666;
+    }
+
+    .skill_table {
+      overflow: hidden;
+    }
+
+
+}
+
 </style>

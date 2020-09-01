@@ -4,7 +4,7 @@
     <h3>過去の制作事例の一部を紹介します。</h3>
       <div class="portfolio" v-for='(item, index) in items' :key="index">
         <div class="sample_box">
-          <img  @click="openModal(item)" :src="item.img_src" alt="Card image" width="300" height="200">
+          <img  @click="openModal(item)" :src="item.img_src" alt="Card image">
         </div>
         <modal :val="postItem" v-show="showContent" @close="closeModal" />
       </div>
@@ -60,17 +60,17 @@
   }
 </script>
 
+
+
 <style>
+
 .work {
-  min-height: 300px;
   margin: 0;
   background-color: #eeeeee;
   overflow: hidden;
 }
 
 .work > h1 {
-  margin: 0;
-  line-height: 100px;
   font-size: 52px;
   font-family: "Brandon Grotesque W01", "Century Gothic",
     "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ,
@@ -81,17 +81,11 @@
   margin-bottom:100px;
 }
 
-.portfolio {
- float: left;
- margin-bottom:400px;
-}
 
-.sample_box{
- width:470px;
- margin:0 auto;
-}
 .sample_box img{
- transition:1s all;
+  transition:1s all;
+  width:300px;
+  height:200px;
 }
 
 .sample_box img:hover{
@@ -99,6 +93,55 @@
   box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
   transform: translateY(-10px);
   transition-duration: 0.5s;
+}
+
+
+
+
+
+@media screen and (min-width:1051px){
+    .portfolio {
+      float: left;
+      margin-bottom:400px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sample_box{
+      width:470px;
+      margin:0 auto;
+    }
+}
+
+
+@media screen and (max-width:1050px){
+
+    .portfolio {
+      float: left;
+      justify-content: center;
+      align-items: center;
+      margin-bottom:100px;
+    }
+
+    .sample_box{
+      width:470px;
+      margin:0 auto;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .portfolio {
+      float: left;
+      margin-bottom:100px;
+    }
+
+    .sample_box{
+      margin:0 auto;
+    }
+
 }
 
 
