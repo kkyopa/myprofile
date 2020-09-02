@@ -14,15 +14,16 @@
       どんな些細なことでも、お気軽にお問い合わせください。
     </p>
     <div class="form">
-      <input name="name" type="text" class="feedback-input" placeholder="Name" />
-      <input name="email" type="text" class="feedback-input" placeholder="Email" />
-      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+      <input name="name" type="text" class="feedback-input" v-model="params.name" placeholder="Name" />
+      <input name="email" type="text" class="feedback-input" v-model="params.email" placeholder="Email" />
+      <textarea name="text" class="feedback-input" v-model="params.text" placeholder="Comment"></textarea>
       <input type="button" value="送信" @click="submit"/>
     </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 
 export default {
   namecontact: 'App',
@@ -38,6 +39,13 @@ export default {
   methods:{
     submit(){
       window.console.log(this.params)
+      axios.post('http://127.0.0.1:8000/api/contact',this.params)
+          .then((response) => {
+            window.console.log(response.data)
+          })
+          .catch((e) => {
+            alert(e);
+          });
     }
    }
 }
