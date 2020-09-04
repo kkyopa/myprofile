@@ -117,7 +117,6 @@
 @media screen and (max-width:1050px){
 
     .portfolio {
-      float: left;
       justify-content: center;
       align-items: center;
       margin-bottom:100px;
@@ -134,7 +133,6 @@
 @media screen and (max-width:767px) {
 
     .portfolio {
-      float: left;
       margin-bottom:100px;
     }
 

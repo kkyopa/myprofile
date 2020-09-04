@@ -112,7 +112,6 @@ th + th,td{
       border:1px solid #666;
       border-spacing: 0;
       width:340px;
-      float:left;
       margin-left: 30px;
       margin-right: 30px;
       margin-bottom:30px;
