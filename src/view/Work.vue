@@ -42,7 +42,7 @@
             desc: '当サイトになります。Vue.jsを使用しましたが、環境構築が簡単ですぐに開発に取り掛かることができました。Vue.jsはコンポーネントを作る際に1ファイルのみで見やすく楽しくコードを書くことが出来ました。',
             range: '要件定義、実装、運用（レスポンシブ対応）',
             lang: 'HTML,CSS,Vue.js',
-            url:'未定',
+            url:'http://kyosukekawada.com',
             img_src: require('../assets/img/po.png'),
           },
         ]
