@@ -39,7 +39,7 @@ export default {
   methods:{
     submit(){
       window.console.log(this.params)
-      axios.post('http://127.0.0.1:8000/api/contact',this.params)
+      axios.post('https://kyopa.tokyo/api/contact',this.params)
           .then((response) => {
             window.console.log(response.data)
           })
