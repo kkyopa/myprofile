@@ -99,7 +99,7 @@
 
 
 
-@media screen and (min-width:1051px){
+@media screen and (min-width:1024px){
     .portfolio {
       float: left;
       margin-bottom:400px;
@@ -114,7 +114,7 @@
 }
 
 
-@media screen and (max-width:1050px){
+@media screen and (min-width:768px) and ( max-width:1024px) {
 
     .portfolio {
       justify-content: center;

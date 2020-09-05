@@ -52,6 +52,8 @@
   min-height: 800px;
   margin: 0;
   background-color: white;
+        justify-content: center;
+      align-items: center;
 }
 
 .skill > h1 {
@@ -111,7 +113,7 @@ th + th,td{
     table{
       border:1px solid #666;
       border-spacing: 0;
-      width:340px;
+      width:140px;
       margin-left: 30px;
       margin-right: 30px;
       margin-bottom:30px;
@@ -134,7 +136,6 @@ th + th,td{
     }
 
     .skill_table {
-      overflow: hidden;
     }
 
 
