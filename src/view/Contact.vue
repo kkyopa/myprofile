@@ -56,6 +56,7 @@ export default {
 .contact {
   min-height: 800px;
   margin: 0;
+  margin-bottom:50px;
 }
 
 .contact > h1 {

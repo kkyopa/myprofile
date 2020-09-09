@@ -23,10 +23,12 @@
         <span class="centering_item">KYOSUKE KAWADA</span><br><br>
       <TextAnime3 :autoplay="autoplay"/>
       </h1>
-      <a href="#section1" v-smooth-scroll="{ duration: 3000, offset: 0 }"><span class="material-icons scroll_top">
-        expand_more
-      </span>
-      </a>
+      <div class="parent">
+        <a href="#section1" v-smooth-scroll="{ duration: 3000, offset: 0 }"><span class="material-icons scroll_top">
+          expand_more
+        </span>
+        </a>
+      </div>
     </div>
  </template>
 
@@ -101,6 +103,10 @@ html, body, #particles {
         top:0;
     }
 
+      .parent{
+        position: relative;
+        height: 80px;
+      }
     .material-icons.scroll_top {
       color :white;
       font-size:50px;
