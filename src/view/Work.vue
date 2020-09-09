@@ -71,7 +71,7 @@
 }
 
 .work > h1 {
-  font-size: 52px;
+  font-size: 42px;
   font-family: "Brandon Grotesque W01", "Century Gothic",
     "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ,
     sans-serif;
