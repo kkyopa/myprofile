@@ -58,4 +58,13 @@
   color :#ff4081;
 }
 
+@media screen and (max-width:767px) {
+
+#content p {
+  color:white;
+  font-size:0.6rem;
+}
+
+}
+
 </style>

@@ -25,7 +25,7 @@
           { id: 1,
             desc: 'プログラミングスクールに通い初めてのWeb制作をRubyonRailsで作成しました。アプリ名は一日一善一運です。運を可視化するアプリで、いいことをつぶやくと運ポイントが加算されます。オリジナルアプリを通してCRUD、画像アップロード、フォロー機能、herokuデプロイなどを学びました。今後は実務レベルでこれらの技術を活用することを考えています。',
             range: '要件定義、実装、運用（レスポンシブ対応）',
-            lang: 'HTML,CSS,JavaScript,RubyOnRails,PostgreSQL,Heroku',
+            lang: 'HTML,CSS,JavaScript,RubyOnRails,PostgreSQL',
             url:'https://radiant-refuge-40609.herokuapp.com',
             img_src: require('../assets/img/itiun.png'),
           },
