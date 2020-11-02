@@ -3,13 +3,13 @@
     <h1>Skill set</h1>
     <p>見方としては「1: 独学で学習中の段階」、「2:独学で数ヶ月以上学んだor実務で多少使ったことがある」、「3: 実務で数ヶ月以上使用したことがある」
     </p>
-    <p>「4: 実務レベルで開発可能」、「5: 実務レベルで開発可能+技術を教えられる」という感じです。
+    <p>「4: 実務レベルで開発可能」、「5: 実務レベルで開発可能+技術を教えられる」というレベル感です。
     </p>
     <div class="skill_table">
       <table>
       <caption>プログラミング言語</caption>
         <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-        <tr><th>HTML/CSS</th><td></td><td></td><td>○</td><td></td><td></td></tr>
+        <tr><th>HTML/CSS</th><td></td><td></td><td></td><td>○</td><td></td></tr>
         <tr><th>JavaScript</th><td></td><td></td><td>○</td><td></td><td></td></tr>
         <tr><th>PHP</th><td></td><td></td><td></td><td>○</td><td></td></tr>
         <tr><th>Ruby</th><td></td><td>○</td><td></td><td></td><td></td></tr>
@@ -18,18 +18,18 @@
       <table>
       <caption>開発環境</caption>
         <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-        <tr><th>Git</th><td></td><td></td><td>○</td><td></td><td></td></tr>
-        <tr><th>Docker</th><td>○</td><td></td><td></td><td></td><td></td></tr>
-        <tr><th>Vagrant</th><td>○</td><td></td><td></td><td></td><td></td></tr>
-        <tr><th>VSCode</th><td></td><td></td><td></td><td>○</td><td></td></tr>
+        <tr><th>Git</th><td></td><td></td><td></td><td>○</td><td></td></tr>
+        <tr><th>Docker</th><td></td><td>○</td><td></td><td></td><td></td></tr>
+        <tr><th>Linux</th><td></td><td></td><td></td><td>○</td><td></td></tr>
+        <tr><th>VSCode</th><td></td><td></td><td></td><td></td><td>○</td></tr>
       </table>
 
       <table>
-      <caption>フレームワーク,ライブラリ</caption>
+      <caption>フレームワーク等</caption>
         <tr><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr>
-        <tr><th>Laravel</th><td></td><td>○</td><td></td><td></td><td></td></tr>
-        <tr><th>Vue.js</th><td>○</td><td></td><td></td><td></td><td></td></tr>
-        <tr><th>RubyonRails</th><td>○</td><td></td><td></td><td></td><td></td></tr>
+        <tr><th>Laravel</th><td></td><td></td><td></td><td>○</td><td></td></tr>
+        <tr><th>Vue.js</th><td></td><td>○</td><td></td><td></td><td></td></tr>
+        <tr><th>RubyonRails</th><td></td><td>○</td><td></td><td></td><td></td></tr>
         <tr><th>jQuery</th><td></td><td></td><td>○</td><td></td><td></td></tr>
       </table>
 

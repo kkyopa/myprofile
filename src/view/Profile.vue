@@ -43,11 +43,6 @@
               <img src="../assets/img/facebook.png" alt="facebook">
             </a>
           </li>
-          <li class="twitter_icon">
-            <a href="https://twitter.com/kazumons" target="_blank">
-              <img src="../assets/img/twitter.png" alt="facebook">
-            </a>
-          </li>
         </ul>
       </div>
     </div>
